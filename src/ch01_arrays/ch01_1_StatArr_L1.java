@@ -1,6 +1,6 @@
-package arrays;
+package ch01_arrays;
 //Focus: Declaration, Access, and Traversal.
-public class StaticArrayL1 {
+public class ch01_1_StatArr_L1 {
     public static void main(String[] args) {
         // 1. Declaration and Initialization
         // Fixed size of 5, indices range from 0 to 4.

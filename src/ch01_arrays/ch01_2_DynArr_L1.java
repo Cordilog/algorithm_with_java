@@ -1,8 +1,8 @@
-package arrays;
+package ch01_arrays;
 
 import java.util.ArrayList;
 //Focus: Using the built-in ArrayList.
-public class DynArrayL1 {
+public class ch01_2_DynArr_L1 {
     public static void main(String[] args) {
         // 1. Initialize ArrayList (Dynamic Array)
         // Unlike static arrays, we don't need to specify the size.

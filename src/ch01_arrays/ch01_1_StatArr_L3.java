@@ -1,6 +1,6 @@
-package arrays;
+package ch01_arrays;
 //Focus: 2D Array manipulation and Snail (Spiral) Traversal logic.
-public class StaticArrayL3 {
+public class ch01_1_StatArr_L3 {
     public static void main(String[] args) {
         int n = 5; // Create a 5x5 matrix
         int[][] matrix = new int[n][n];

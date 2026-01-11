@@ -1,13 +1,13 @@
-package arrays;
+package ch01_arrays;
 
 import java.util.Arrays;
 //Focus: Implementing resize logic (doubling capacity).
-public class DynArrayL2 {
+public class ch01_2_DynArr_L2 {
     private int[] data;
     private int size;
     private int capacity;
 
-    public DynArrayL2(int initialCapacity) {
+    public ch01_2_DynArr_L2(int initialCapacity) {
         this.capacity = initialCapacity;
         this.data = new int[capacity];
         this.size = 0;
@@ -33,7 +33,7 @@ public class DynArrayL2 {
     }
 
     public static void main(String[] args) {
-        DynArrayL2 arr = new DynArrayL2(2); // Start with small capacity
+        ch01_2_DynArr_L2 arr = new ch01_2_DynArr_L2(2); // Start with small capacity
         arr.add(1);
         arr.add(2);
         arr.add(3); // Trigger resize here

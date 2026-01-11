@@ -1,8 +1,8 @@
-package arrays;
+package ch01_arrays;
 
 import java.util.Arrays;
 //Focus: Simulating deletion in a fixed-size array (Shifting elements).
-public class StaticArrayL2 {
+public class ch01_1_StatArr_L2 {
     public static void main(String[] args) {
         // Initial array with 5 elements.
         int[] arr = {1, 2, 999, 4, 5};
